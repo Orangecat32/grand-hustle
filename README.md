@@ -6,6 +6,8 @@ This is a demo application, called SupraHotFire, for viewing a database of rap a
 ## Application Notes
 
 
+- Application Screen 
+
     ![Screen Shot](/documentation/screen1.PNG?raw=true "Screen Shot")
 
     
@@ -15,15 +17,14 @@ This is a demo application, called SupraHotFire, for viewing a database of rap a
     - Redux added. 
     - Thunk middleware added
     - jest testing added
+    - jason-server added to vend the artist data base
 
 # Running the database server
-
-Running the server
-yarn server 
-This will start the json server on port 3500
-Datebase of artists is stored in src/mock/rappers.json
+- It is necessary to run the database server to see any data in the viewer application 
+- After making a local copy of the repro, execute 'yarn server' (or npm server) from the command line in the repro directory
+- This will start the json server on port 3500
+- The artist datebase is stored in src/mock/rappers.json
 
 # Running tests
-Running tests
-yarn test
-A few sample tests have been implemented.  The tests do not cover all code or every situation that should be tested in a production app. 
+- A few sample tests have been implemented.  The tests do not cover all code or every situation that should be tested in a production app. 
+- To run the tests, execute 'yarn test' (or npm test) from the command prompt
