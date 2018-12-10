@@ -5,8 +5,8 @@ This is a demo application, called SupraHotFire, for viewing a database of rap a
 
 ## Application Notes
 
-- After cloning the this repro, run the database server as described below
-- start the application by executing 'yarn start' (or npm start) in the repro directory.  Port 9000 is used.
+- After cloning this repro, run the database server as described below
+- Start the application by executing 'yarn start' (or npm start) in the repro directory.  Port 9000 is used.
 
 
 - Application Screen 
